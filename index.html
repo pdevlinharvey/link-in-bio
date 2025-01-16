@@ -1,3 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+    <style>
+      html {
+        min-height: 100%;
+      }
+      body {
+        min-height: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(90deg, #205b21, #3a712f, #53883d, #6e9f4b, #8ab75a, #a7ce69, #c5e779, #e5ff89);
+        font-family: "Raleway";
+      }
+      a {
+        text-decoration: none;
+      }
+      .main-container {
+        max-width: 640px;
+        margin: auto;
+      }
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+      }
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+      .item {
+        background-color: rgba(46, 87, 53, 1);
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(0,0,0,75);
+      }
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .name-row {
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: "Oswald";
+        font-size: 24px;
+        font-weight: 900;
+      }
+      .social-icons-row {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
+      }
+    </style>
+    <title>
+
+    </title>
+  </head>
 <body>
-<h1>My link-in-bio</h1>
-</body>
+  <div class="main-container">
+    <div class="image-row">
+      <img class="avatar-image" src="profile-pic.jpg" alt="profile pic">
+    </div>
+
+    <div class="name-row">
+      Devlin Harvey
+    </div>
+
+    <div class="social-icons-row">
+      <a href="https://github.com/pdevlinharvey" target="_blank">
+        <i class="fa-brands fa-github-alt"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/p-devlin-harvey-a55a6221b/" target="_blank">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+    </div>
+    
+    <div class="links-row">
+      <div class="item">
+        <img class="thumbnail" src="chess.jpg">
+
+        <a class="link-text" target="_blank" href="https://www.chess.com/home">
+          Learn and Play Chess
+        </a>
+      </div>
+    </div> 
+  </div>
+</body>  
+</html>
